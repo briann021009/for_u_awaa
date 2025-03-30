@@ -359,7 +359,7 @@ body {
 }
 
 .flower__grass {
-  --c: #1e90ff; /* Ubah warna menjadi biru */
+  --c: #87cefa; /* Ubah warna menjadi biru muda */
   --line-w: 1.5vmin;
   position: absolute;
   bottom: 12vmin;
@@ -389,7 +389,7 @@ body {
   width: 7vmin;
   height: 10vmin;
   border-top-right-radius: 100%;
-  border-right: var(--line-w) solid var(--c);
+  border-right: var(--line-w) solid var(--c); /* Menggunakan warna biru muda */
   transform-origin: bottom center;
   transform: rotate(-2deg);
 }
@@ -398,7 +398,7 @@ body {
   margin-top: -2px;
   width: var(--line-w);
   height: 25vmin;
-  background-image: linear-gradient(to top, transparent, var(--c));
+  background-image: linear-gradient(to top, transparent, var(--c)); /* Menggunakan warna biru muda */
 }
 
 .flower__grass__leaf {
@@ -408,7 +408,7 @@ body {
   height: var(--size);
   border-top-left-radius: var(--size);
   border-top-right-radius: var(--size);
-  background-image: linear-gradient(to top, transparent, transparent 30%, var(--c)); /* Ubah warna menjadi biru */
+  background-image: linear-gradient(to top, transparent, transparent 30%, var(--c)); /* Ubah warna menjadi biru muda */
   z-index: 100;
 }
 .flower__grass__leaf--1 {
